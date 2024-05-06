@@ -138,7 +138,9 @@ impl crate::sealed::Sealed for SystemRandom {}
     target_os = "redox",
     target_os = "solaris",
     target_os = "tvos",
+    target_os = "visionos",
     target_os = "vita",
+    target_os = "watchos",
     target_os = "windows",
     all(
         target_arch = "wasm32",
